@@ -294,7 +294,7 @@ If you use this work in your research, please cite:
 ## 📧 Contact
 
 For questions or collaboration opportunities, please contact:
-- Email: [your-email@example.com]
+- Email: [guptaangelina.5.10@gmail.com]
 - Institution: BML Munjal University, Haryana, India
 
 ---
