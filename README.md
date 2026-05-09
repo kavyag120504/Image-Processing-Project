@@ -2,7 +2,7 @@
 
 An AI-powered diagnostic system for automated disease classification from CT scans across multiple organs using deep learning.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Architecture](#architecture)
@@ -17,7 +17,7 @@ An AI-powered diagnostic system for automated disease classification from CT sca
 - [Contributors](#contributors)
 - [License](#license)
 
-## 🔍 Overview
+## Overview
 
 This project implements a comprehensive deep learning framework for automated multi-organ, multi-disease classification using CT imaging. The system can detect and classify various diseases across three critical body organs:
 
@@ -27,7 +27,7 @@ This project implements a comprehensive deep learning framework for automated mu
 
 The modular architecture employs organ-specific models to maximize diagnostic accuracy and minimize cross-organ confusion, making it suitable for real-world clinical deployment.
 
-## ✨ Features
+##  Features
 
 - **Multi-Organ Support**: Unified framework covering kidney, chest, and brain CT scans
 - **High Accuracy**: Achieves 98.67% (kidney), 95.49% (chest), and 78.90% (brain) test accuracy
@@ -37,7 +37,7 @@ The modular architecture employs organ-specific models to maximize diagnostic ac
 - **Modular Design**: Extensible architecture for adding new organs or disease classes
 - **Clinical Ready**: Comprehensive evaluation with confusion matrices and performance metrics
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Model Selection
 - **Kidney**: EfficientNet-B2 (selected after comparison with B0 for superior accuracy)
@@ -51,7 +51,7 @@ The modular architecture employs organ-specific models to maximize diagnostic ac
 4. **Class Balancing**: Weighted loss functions to handle imbalanced datasets
 5. **Regularization**: Dropout, early stopping, and learning rate scheduling
 
-## 📊 Datasets
+##  Datasets
 
 ### Kidney CT Dataset
 - **Size**: ~5,600 images (512×512 pixels, RGB)
@@ -73,7 +73,7 @@ The modular architecture employs organ-specific models to maximize diagnostic ac
 - **Format**: JPG, DICOM
 - **Preprocessing**: Intensity normalization, gamma correction, CLAHE, Gaussian blur
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -106,7 +106,7 @@ streamlit>=1.20.0
 pillow>=9.3.0
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Training Models
 ```python
@@ -148,7 +148,7 @@ print(f"Confidence: {result['confidence']:.2%}")
 print(f"Top 3 Predictions: {result['top3']}")
 ```
 
-## 📈 Model Performance
+##  Model Performance
 
 ### Kidney CT Classification
 
@@ -186,7 +186,7 @@ print(f"Top 3 Predictions: {result['top3']}")
 
 **Overall Accuracy**: 78.90% (Test), 80.25% (Validation)
 
-## 📁 Project Structure
+##  Project Structure
 ```
 multi-organ-disease-prediction/
 │
@@ -229,7 +229,7 @@ multi-organ-disease-prediction/
 └── README.md
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Deep Learning**: TensorFlow, Keras, EfficientNet
 - **Image Processing**: OpenCV, scikit-image
@@ -238,7 +238,7 @@ multi-organ-disease-prediction/
 - **Web Interface**: Streamlit
 - **Medical Imaging**: DICOM processing libraries
 
-## 🎯 Results
+##  Results
 
 The system demonstrates excellent performance across all three organs:
 
@@ -252,7 +252,7 @@ Key achievements:
 - Fast inference times suitable for clinical use
 - Clear, interpretable probability outputs
 
-## 🔮 Future Work
+##  Future Work
 
 - [ ] Expand to additional organs (liver, pancreas, abdomen)
 - [ ] Implement attention mechanisms for better explainability
@@ -269,11 +269,11 @@ Key achievements:
 - **Vanshika Valecha** - BML Munjal University
 - **Angelina Gupta** - BML Munjal University
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📚 Citation
+##  Citation
 
 If you use this work in your research, please cite:
 ```bibtex
@@ -285,18 +285,17 @@ If you use this work in your research, please cite:
 }
 ```
 
-## 🤝 Acknowledgments
+##  Acknowledgments
 
 - BML Munjal University for providing computational resources
 - Research papers cited in the literature review for methodological guidance
 - Open-source medical imaging datasets used in training
 
-## 📧 Contact
+##  Contact
 
 For questions or collaboration opportunities, please contact:
 - Email: [guptaangelina.5.10@gmail.com]
 - Institution: BML Munjal University, Haryana, India
-
 ---
 
 **Note**: This is a research project intended for educational purposes. Clinical deployment requires appropriate validation and regulatory approval.
